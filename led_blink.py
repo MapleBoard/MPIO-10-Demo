@@ -33,8 +33,8 @@ os.system('echo 0 > /sys/class/gpio/gpio1/value')
 while(True):
     os.system('echo 1 > /sys/class/gpio/gpio0/value')
     os.system('echo 0 > /sys/class/gpio/gpio1/value')
-#    time.sleep(0.5)
+    time.sleep(0.5)
     os.system('echo 0 > /sys/class/gpio/gpio0/value')
     os.system('echo 1 > /sys/class/gpio/gpio1/value')
-#    time.sleep(0.5)
+    time.sleep(0.5)
 
